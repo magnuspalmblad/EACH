@@ -1,2 +1,4 @@
+# Make GML files detectable by linguest
+*.gml linguist-detectable
 # Reclassify `.gml` files as Graph Modeling Language:
 *.gml linguist-language=Graph Modeling Language
