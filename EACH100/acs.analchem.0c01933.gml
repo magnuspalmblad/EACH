@@ -1,4 +1,5 @@
 graph [
+	directed 1
 	label "Annotation of 10.1021/acs.analchem.0c01933"
 	node [
 		id 1
