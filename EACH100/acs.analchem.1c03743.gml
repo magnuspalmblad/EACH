@@ -1,6 +1,6 @@
 graph [
 	directed 1
-	label "Annotation of 10.1021acs.analchem.1c03743"
+	label "Annotation of 10.1021/acs.analchem.1c03743"
 	node [
 		id 1
 		label "START"
