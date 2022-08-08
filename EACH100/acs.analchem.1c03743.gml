@@ -1,8 +1,5 @@
 graph [
 	directed 1
-	comment "Annotated by M. Palmblad"
-	comment "Last update 20220808"
-	comment "Annotation version 1"
 	label "Annotation of 10.1021acs.analchem.1c03743"
 	node [
 		id 1
