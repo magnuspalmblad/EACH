@@ -12,6 +12,6 @@ This GitHub repository contains the current version of the EACH100 dataset of 10
 The R scripts were used to generate the Figures in the manuscript and can be used to re-generate them with the current EACH100 data.
 
 All participants at the [Excellence in Analytical Chemistry](https://each.ut.ee/EACH/)
-(EACH) Winter School in Uppsala, Sweden in January 2022 are gratefully acknowledged. The EACH Programme is funded by the Erasmus+ Programme of the European Union (EACH EM JMD, projects No 586571 and 619658).
+(EACH) [Winter School](https://each.ut.ee/EACH/each-winter-school/) in Uppsala, Sweden in January 2022 are gratefully acknowledged. The EACH Programme is funded by the [Erasmus+ Programme of the European Union](https://erasmus-plus.ec.europa.eu/projects/search/details/586571-EPP-1-2017-1-EE-EPPKA1-JMD-MOB).
 
 Please submit comments on individual annotations as issues, or your suggested improved GMLs as pull requests.
