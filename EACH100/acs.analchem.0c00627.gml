@@ -19,8 +19,7 @@ graph [
 	]
 	node [
 		id 5
-		label "Oxidation [NCIT:C16944]"
-		
+		label "Oxidation [NCIT:C16944]"	
 	]
 	node [
 		id 6
@@ -49,7 +48,6 @@ graph [
 	node  [
 		id 12
 		label "END"
-	
 	]
 	edge [
 		source 1
@@ -75,7 +73,6 @@ graph [
 		source 1
 		target 6
 		label "Monoclonal antibodies [NCIT:C20401]"
-	
 	]
 	edge [
 		source 1
@@ -90,14 +87,12 @@ graph [
 	edge [
 		source 3
 		target 8
-		label "degradation product [AFRL:0000365]"
-		
+		label "degradation product [AFRL:0000365]"	
 	]
 	edge [
 		source 4
 		target 8
-		label "degradation product [AFRL:0000365]"
-		
+		label "degradation product [AFRL:0000365]"	
 	]
 	edge [
 		source 5
@@ -108,14 +103,12 @@ graph [
 		source 6
 		target 8
 		label "degradation product [AFRL:0000365]"
-	
 	]
 	edge [
 		source 7
 		target 8
 		label "degradation product [AFRL:0000365]"
 	]
-
         edge [
 		source 8
 		target 9
@@ -125,7 +118,6 @@ graph [
 		source 9
 		target 10
 		label "degradation product [AFRL:0000365]"
-	
 	]
 	edge [
 		source 10
