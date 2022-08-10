@@ -58,7 +58,6 @@ graph [
 		source 5
 		target 6
 		label "fluorescence spectrum [CHMO:0000815]"
-	
 	]
 	edge [
 		source 6
