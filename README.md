@@ -1,4 +1,4 @@
-# EACH100: Semantic Annotation of 100 Methods Sections in *Analytical Chemistry*
+# EACH100: Annotation of 100 *Analytical Chemistry* Methods Sections
 
 This GitHub repository contains the current version of the EACH100 dataset of 100 annotated experimental sections in open-access *Analytical Chemistry* papers. The version corresponding to the data in the accepted manuscript will be the first release.
 
