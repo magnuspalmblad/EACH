@@ -5,6 +5,7 @@ This GitHub repository contains the current version of the EACH100 dataset of 10
 | File/Folder                     | Content                                                                   |
 | --------------------------------|---------------------------------------------------------------------------|
 | EACH100                         | Method graphs for the 100 annotated *Analytical Chemistry* papers           |
+| concordance                     | Method graphs for three papers independently annotated by five curators   |
 | EACH100Corpus.tsv               | List and metadata for the *Analytical Chemistry* papers in EACH100          |
 | generateFigures.R               | R script for making Figures 2-4 and Supplemental Figure 1                 |
 | methodAnnotationsToCytoscape.R  | R script for visualizing method graphs in Cytoscape (for Figures 1 and 5) |
