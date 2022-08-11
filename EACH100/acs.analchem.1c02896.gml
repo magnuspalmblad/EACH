@@ -11,11 +11,11 @@ graph [
 	]
 	node [
 		id 3
-		label "Vortex Mixer [NCIT:C29544]"
+		label "Vortex Mix [NCIT:C29544]"
 	]
 	node [
 		id 4
-		label "Internal Standard [AFRL:0000432]"
+		label "Internal Standard[AFRL:0000432]"
 	]
 	node [
 		id 5
@@ -27,9 +27,9 @@ graph [
 	]
 	node [
 		id 7
-		label "Vacuum Evaporation"
-		comment "or Vaccum device [GENEPIO:0002127]"
-		comment "or Evaporation [REX:0000178]"
+		label "Evaporation [REX:0000178]"
+		comment "Vaccum device [GENEPIO:0002127]"
+		comment "Evaporation [REX:0000178]"
 	]
 	node [
 		id 8
@@ -37,12 +37,11 @@ graph [
 	]
 	node [
 		id 9
-		label "ultra high-performance liquid chromatography [AFP:0002059]"
-		comment "using an Agilent UHPLC"
+		label "Agilent UHPLC [AFP:0002059]"
 	]
 	node [
 		id 10
-		label "quadrupole time-of-flight mass spectrometry [CHMO:0002719]"
+		label "Quadrupole time-of-flight mass spectrometry [CHMO:0002719]"
 	]
 	node [
 		id 11
@@ -54,7 +53,7 @@ graph [
 	]
 	node [
 		id 13
-		label "Ion Trap LC/MS [MS:1000476]"
+		label "6340 Ion Trap LC/MS [MS:1000476]"
 	]
 	node [
 		id 14
@@ -75,31 +74,38 @@ graph [
 	edge [
 		source 1
 		target 2
-		label "Plasma/CSF/Urine [NCIT:C13283]"
+		label "Specimen [NCIT:C19157]"
+		comment "Plasma/CSF/Urine [NCIT:C13283]"
 	]
 	edge [
 		source 2
 		target 3
+		label "sample [MS:1000457]"
 	]
 	edge [
 		source 3
 		target 4
+		label "sample [MS:1000457]"
 	]
 	edge [
 		source 4
 		target 5
+		label "sample [MS:1000457]"
 	]
 	edge [
 		source 5
 		target 6
+		label "sample [MS:1000457]"
 	]
 	edge [
 		source 6
 		target 7
+		label "sample [MS:1000457]"
 	]
 	edge [
 		source 7
 		target 8
+		label "sample [MS:1000457]"
 	]
 	edge [
 		source 8
@@ -114,33 +120,41 @@ graph [
 	edge [
 		source 10
 		target 11
+		label "Ions [OMIT:0008593]"
 	]
 	edge [
 		source 10
 		target 14
+		label "Ions [OMIT:0008593]"
 	]
 	edge [
 		source 16
 		target 15
+		label "Reference [CHMO:0002913]"
 	]
 	edge [
 		source 11
 		target 12
+		label "sample [MS:1000457]"
 	]
 	edge [
 		source 12
 		target 13
+		label "sample [MS:1000457]"
 	]
 	edge [
 		source 14
 		target 15
+		label "sample [MS:1000457]"
 	]
 	edge [
 		source 15
 		target 13
+		label "Reference [CHMO:0002913]"
 	]
 	edge [
 		source 13
 		target 17
+		label "sample [MS:1000457]"
 	]
 ]
