@@ -12,7 +12,7 @@ graph [
 	]
 	node [
 		id 3
-		label "nano-electrospray [MS:1000398]"
+		label "nanoelectrospray [MS:1000398]"
 	]
 	node [
 		id 4
