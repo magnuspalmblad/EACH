@@ -1,8 +1,5 @@
 graph [
 	directed 1
-	comment "Annotated by N. Bergman"
-	comment "Last update 20220811"
-	comment "Annotation version 1"
 	label "Annotation of 10.1021/acs.analchem.0c04843"
 	node [
 		id 1
