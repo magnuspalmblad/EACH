@@ -106,9 +106,9 @@ ggplot(df, aes(step, fill = ontology, color = ontology, show.legend = FALSE)) +
         panel.grid.minor = element_blank(),
         panel.background = element_blank(),
         axis.line = element_line(colour = 'black')) +
-  annotate("text", x=0.12, y=1.05, label= 'NCIT') +
-  annotate("text", x=0.51, y=1.18, label= 'CHMO') +
-  annotate("text", x=0.83, y=1.5, label= 'EDAM') +
+  annotate("text", x=0.11, y=1.12, label= 'NCIT') +
+  annotate("text", x=0.50, y=1.18, label= 'CHMO') +
+  annotate("text", x=0.807, y=1.42, label= 'EDAM') +
   theme(text = element_text(size = 10, color = 'black'))
 dev.off()
 
@@ -166,7 +166,7 @@ words <- words[which(words != 224)]
 
 df2_max <- data.frame(nodes[which(words == 1884)], words[which(words == 1884)])
 colnames(df2_max) <- c('nodes', 'words')
-df2_min <- data.frame(nodes[which(nodes == 24)], words[which(nodes == 24)])
+df2_min <- data.frame(nodes[which((words == 597))], words[which((words == 597))])[2,]
 colnames(df2_min) <- c('nodes', 'words')
 
 df2_zoom <- data.frame(nodes[which(words == 1917)], words[which(words == 1917)])
@@ -222,7 +222,8 @@ for(gmlFile in list.files(pattern = '*.gml')) {
   distMax <- c(distMax, temp)
   if(gmlFile %in% c("acs.analchem.0c00627.gml",
                     "acs.analchem.1c02420.gml",
-                    "acs.analchem.0c04590.gml")
+                    "acs.analchem.0c04590.gml",
+                    "acs.analchem.1c03743.gml")
   ) tempCategory <- 'parallel'
   
   category <- c(category, tempCategory)
