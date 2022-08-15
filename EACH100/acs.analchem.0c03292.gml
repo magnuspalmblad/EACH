@@ -8,7 +8,7 @@ graph [
 	node [
 		id 2
 		label "protein cross-linking with a bifunctional reagent [MI:0031]"
-		comment or Crosslinking Process [NCIT:C166360] or Protein-protein cross-linking experiment [PRIDE:0000455]"
+		comment "or Crosslinking Process [NCIT:C166360] or Protein-protein cross-linking experiment [PRIDE:0000455]"
 	]
 	node [
 		id 3
@@ -37,7 +37,7 @@ graph [
 	]
 	node [
 		id 9
-		label "ion trap mass spectrometry [CHMO:0000500]"
+		label "Orbitrap mass spectrometry [CHMO:0002926]"
 		comment "With an orbitrap [CHMO:0000968]"
 	]
 	node [
@@ -47,13 +47,12 @@ graph [
 	node [
 		id 11
 		label "Peptide database search [operation:3646]"
-		comment "Also cross-linking search [MS:1002494]"
+		comment "or cross-linking search [MS:1002494]"
 	]
 	node [
 		id 12
 		label "Visualisation [operation:0337]"
 	]
-
 	node [
 		id 13
 		label "END"
