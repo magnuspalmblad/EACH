@@ -1,6 +1,6 @@
 # EACH100: Annotation of 100 *Analytical Chemistry* Methods Sections
 
-This GitHub repository contains the current version of the EACH100 dataset of 100 annotated methods or experimental sections in open-access *Analytical Chemistry* papers. The [initial release]() corresponds to the data in the [original paper](https://pubs.acs.org/doi/10.1021/acs.analchem.2c03565).
+This GitHub repository contains the current version of the EACH100 dataset of 100 annotated methods or experimental sections in open-access *Analytical Chemistry* papers. The [initial release](https://github.com/magnuspalmblad/EACH/releases/tag/v20220815) corresponds to the data in the [original paper](https://pubs.acs.org/doi/10.1021/acs.analchem.2c03565).
 
 | File/Folder                     | Content                                                                   |
 | --------------------------------|---------------------------------------------------------------------------|
