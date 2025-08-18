@@ -1,0 +1,36 @@
+cff-version: 1.2.0
+message: "If you use the data or analysis scripts here, please cite them as below."
+type: data
+authors:
+  - family-names: Palmblad
+    given-names: Magnus
+    orcid: https://orcid.org/0000-0002-5865-8994
+  - family-names: Asein
+    given-names: Enahoro
+    orcid: https://orcid.org/0000-0003-3838-4524
+  - family-names: Bergman
+    given-names: Nina P.
+  - family-names: Ivanova
+    given-names: Arina
+  - family-names: Ramasauskas
+    given-names: Lukas
+  - family-names: Reyes
+    given-names: Hazzar Mohammed
+  - family-names: Ruchti
+    given-names: Stefan
+    orcid: https://orcid.org/0000-0002-9350-7278
+  - family-names: Soto-Jácome
+    given-names: Leonardo
+    orcid: https://orcid.org/0000-0001-6271-623X
+  - family-names: Bergquist
+    given-names: Jonas
+doi: 10.1021/acs.analchem.2c03565
+identifiers:
+  - type: doi
+    value: 10.1021/acs.analchem.2c03565
+  - type: url
+    value: http://dx.doi.org/10.1021/acs.analchem.2c03565
+  - type: other
+    value: urn:issn:0003-2700
+title: Semantic Annotation of Experimental Methods in Analytical Chemistry
+url: http://dx.doi.org/10.1021/acs.analchem.2c03565
